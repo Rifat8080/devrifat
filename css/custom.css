@@ -1,7 +1,137 @@
+/* Root CSS Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serifs;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+/* Navbar CSS */
+.navbar{
+    background: transparent;
+    color: var(--text-color);
+    pa
+}
+
+.navbar-brand{
+    margin-left: 10%;
+    color: var(--text-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+    color: var(--main-color);
+}
 
 .navbar-nav{
     margin-right: 20%;
+    color: var(--text-color);
 }
-.navbar-brand{
+
+
+.nav-link{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s ease-in-out;
+}
+
+.nav-item a:hover{
+    color: var(--main-color);
+}
+
+#home-link{
+    color: var(--main-color);
+}
+
+.navbar-toggler-icon {
+    color: var(--text-color) !important;
+    border: none;
+}
+
+.navbar-toggler{
+    border:none;
+    outline: none;
+}
+
+
+#menu-bar{
+    color: var(--text-color);
+    font-size: 3.6rem;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+
+/* Header Section CSS */
+
+.header{
+    height: 95vh;
+}
+
+.text-section{
     margin-left: 10%;
+}
+
+.title{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.designation{
+    max-width: 40%;
+    position: relative;
+}
+
+.designation h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--main-color);
+}
+
+.designation p{
+    font-size: 1.6rem;
+    margin:2rem 0 4rem;
+}
+
+.header-btn{
+    margin-right: 30px;
+    width: 15rem;
+    height: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    background: var(--main-color);
+    border : .2rem solid var(--main-color);
+    border-radius: .8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color:var(--bg-color);
 }
