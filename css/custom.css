@@ -90,7 +90,6 @@ body{
 /* Header Section CSS */
 
 section{
-    min-height: 100vh;
     padding: 10rem 9% 2rem;
     
 }
@@ -102,6 +101,7 @@ section{
     background: url(/assets/final-img.png) no-repeat;
     background-size:cover ;
     background-position: center;
+    min-height: 100vh;
 }
 
 .home-content{
@@ -246,6 +246,7 @@ section{
     gap: 2rem;
     background: var(--second-bg-color);
     padding-bottom: 6rem;
+    min-height: 100vh;
 }
 
 .heading{
@@ -724,6 +725,6 @@ span{
     color: var(--main-color);
 }
 
-section#shadow-host-companion {
-    overflow: hidden;
-}
+#shadow-host-companion {
+    padding: 0;
+  }
