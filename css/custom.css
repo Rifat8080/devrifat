@@ -105,30 +105,7 @@ button .navbar-toggler .collapsed{
     outline: none;
 }
 
-.animate{
-    position: absolute;
-    top: 0;
-    right:0;
-    width: 100%;
-    height: 100%;
-    background-color:var(--bg-color);
-    z-index: 98;
-}
 
- 
-.navbar-brand .animate,
-.navbar .navbar-nav .animate,
-#menu-bar .animate{
-    animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s*var(--i));
-}
-
-
-@keyframes showRight{
-    100%{
-        width: 0%;
-    }
-}
 
 /* Header Section CSS */
 
@@ -1035,7 +1012,7 @@ span{
         height: 100%;
         margin-bottom: 7px;
         text-decoration: none;
-        margin-left: 17rem;
+        margin-left: 25rem;
     }
    
 }

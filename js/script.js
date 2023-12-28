@@ -21,5 +21,9 @@ window.onscroll = () => {
             });
             document.querySelector('nav a[href="#' + id + '"]').classList.add('active');
         }
+
+       
     });
+
+
 };
